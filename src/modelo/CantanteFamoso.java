@@ -1,3 +1,4 @@
+package modelo;
 
 public class CantanteFamoso {
 	public String nombre;
@@ -24,7 +25,7 @@ public class CantanteFamoso {
 	public void setDiscoConMasVentas(String discoConMasVentas) {
 		this.discoConMasVentas = discoConMasVentas;
 	}
-	
+
 	@Override
 	public String toString() {
 		return nombre + " - " + discoConMasVentas + "\n";
